@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QString>
+#include <QFile>
 
 #include "layout.h"
 
@@ -29,6 +30,28 @@ public slots:
 private:
     QString jsonKeyboard;
     Layout mLayout;
+};
+
+class FileHelper
+{
+public:
+    FileHelper(const QString& path) : mFile(new QFile(path)) {
+        if (mFile)
+            mFile->open(QIODevice::ReadOnly | QIODevice::Text);
+    }
+
+    ~FileHelper() {
+        if (mFile && mFile->isOpen())
+            mFile->close();
+        delete mFile;
+    }
+
+    QFile* getFileHandler() {
+        return mFile;
+    }
+
+private:
+    QFile *mFile;
 };
 
 #endif // KEYBOARDHELPER_H

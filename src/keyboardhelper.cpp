@@ -1,7 +1,6 @@
 #include "keyboardhelper.h"
 
 #include <QKeySequence>
-#include <QFile>
 #include <QTextCodec>
 #include <QKeyEvent>
 #include <QDebug>
@@ -26,12 +25,9 @@ KeyboardHelper::KeyboardHelper(QObject *parent) : QObject(parent)
     //qDebug() << "filePath: " << filePath;
 #endif
 
-    QFile jsonFile(filePath);
-    if (jsonFile.open(QIODevice::ReadOnly | QIODevice::Text))
-    {
-        jsonKeyboard = QTextCodec::codecForMib(106)->toUnicode(jsonFile.readAll());
-        jsonFile.close();
-    }
+    FileHelper helper(filePath);
+    if (helper.getFileHandler() && helper.getFileHandler()->isOpen())
+        jsonKeyboard = QTextCodec::codecForMib(106)->toUnicode(helper.getFileHandler()->readAll());
 }
 
 QString KeyboardHelper::getKeyText(int code) const
