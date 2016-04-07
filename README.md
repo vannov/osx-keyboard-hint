@@ -7,4 +7,10 @@ The app consists of a single window with a keyboard layout. Keys are colored by 
 
 The is a top idea is to keep this app always opened on top of other apps, to use it as a hint while typing text. Thus one can use it to check which finger should be used to press certain key.
 
-I compiled and tested the app only on OS X 10.11, but it could be easily ported to other platforms since it's Qt based.
+The keyboard layout is loaded from json file: /resources/keyboard_layout.json. By editing this json file you can add and modify groups, colors, rows of keys, special keys characters etc.
+
+The app reacts on key events while it's in focus. It will highlight pressed keys, change layout to upper case when Shift is pressed etc. But this doesn't work when the focus is acquired by another application, currenly system-wide detection of key events is not implemented.
+
+I added recongition of current system input language is OS X, so the app will switch layout to different language if this language is configured in keyboard_layout.json. For now I only added English (default) and Russian layouts.
+
+I compiled and tested the app only on OS X 10.11, but it could be easily ported to other platforms since it's Qt based. Repositiry contains 'keyboard.pro' project file for Qt Creator IDE.
