@@ -1,0 +1,531 @@
+{
+    "Groups": 
+        {
+            "leftPinky": {
+                "color": "red"
+            },
+            "leftRing": {
+                "color": "orange"
+            },
+             "leftMiddle": {
+                "color": "yellow"
+            },
+            "leftIndex": {
+                "color": "green"
+            },
+            "leftThumb": {
+                "color": "white"
+            },
+            "rightThumb": {
+                "color": "white"
+            },
+            "rightIndex": {
+                "color": "violet"
+            },
+            "rightMiddle": {
+                "color": "pink" 
+            },
+            "rightRing": {
+                "color": "grey"
+            },
+            "rightPinky": {
+                "color": "cyan"
+            }
+        },
+    "Rows": [
+        {
+            "buttons": [
+                {
+                    "group": "leftPinky",
+                    "text": "\u21E5",
+                    "code": "0x01000001"
+                },
+                {
+                    "group": "leftPinky",
+                    "text": "1",
+                    "shifted": "!",
+                    "code": "0x31"
+                },
+                {
+                    "group": "leftPinky",
+                    "text": "2",
+                    "shifted": "@",
+                    "code": "0x32"
+                },
+                {
+                    "group": "leftRing",
+                    "text": "3",
+                    "shifted": "#",
+                    "code": "0x33"
+                },
+                {
+                    "group": "leftMiddle",
+                    "text": "4",
+                    "shifted": "$",
+                    "code": "0x34"
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "5",
+                    "shifted": "%",
+                    "code": "0x35"
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "6",
+                    "shifted": "^",
+                    "code": "0x36"
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "7",
+                    "shifted": "&",
+                    "code": "0x37"
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "8",
+                    "shifted": "*",
+                    "code": "0x38"
+                },
+                {
+                    "group": "rightMiddle",
+                    "text": "9",
+                    "shifted": "(",
+                    "code": "0x39"
+                },
+                {
+                    "group": "rightRing",
+                    "text": "0",
+                    "shifted": ")",
+                    "code": "0x30"
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "-",
+                    "shifted": "_",
+                    "code": "0x2d"
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "=",
+                    "shifted": "+",
+                    "code": "0x3d"
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "\u2190",
+                    "code": "0x01000003",
+                    "size": {
+                        "w": 1.4,
+                        "h": 1
+                    }
+                }
+            ]
+        },    
+        {
+            "buttons": [
+                {
+                    "group": "leftPinky",
+                    "text": "\u21E5",
+                    "code": "0x01000001",
+                    "size": {
+                        "w": 1.8,
+                        "h": 1
+                    }
+                },
+                {
+                    "group": "leftPinky",
+                    "text": "q",
+                    "code": "0x51",
+                    "lang": {
+                        "ru": {
+                            "text": "й"
+                        }
+                    }
+                },
+                {
+                    "group": "leftRing",
+                    "text": "w",
+                    "code": "0x57",
+                    "lang": {
+                        "ru": {
+                            "text": "ц"
+                        }
+                    }
+                },
+                {
+                    "group": "leftMiddle",
+                    "text": "e",
+                    "code": "0x45",
+                    "lang": {
+                        "ru": {
+                            "text": "у"
+                        }
+                    }
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "r",
+                    "code": "0x52",
+                    "lang": {
+                        "ru": {
+                            "text": "к"
+                        }
+                    }
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "t",
+                    "code": "0x54",
+                    "lang": {
+                        "ru": {
+                            "text": "е"
+                        }
+                    }
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "y",
+                    "code": "0x59",
+                    "lang": {
+                        "ru": {
+                            "text": "н"
+                        }
+                    }
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "u",
+                    "code": "0x55",
+                    "lang": {
+                        "ru": {
+                            "text": "г"
+                        }
+                    }
+                },
+                {
+                    "group": "rightMiddle",
+                    "text": "i",
+                    "code": "0x49",
+                    "lang": {
+                        "ru": {
+                            "text": "ш"
+                        }
+                    }
+                },
+                {
+                    "group": "rightRing",
+                    "text": "o",
+                    "code": "0x4f",
+                    "lang": {
+                        "ru": {
+                            "text": "щ"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "p",
+                    "code": "0x50",
+                    "lang": {
+                        "ru": {
+                            "text": "з"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "[",
+                    "shifted": "{",
+                    "code": "0x5b",
+                    "lang": {
+                        "ru": {
+                            "text": "х"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "]",
+                    "shifted": "}",
+                    "code": "0x5d",
+                    "lang": {
+                        "ru": {
+                            "text": "ъ"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "buttons": [
+                {
+                    "group": "leftPinky",
+                    "text": "\u21EA",
+                    "code": "0x01000024",
+                    "size": {
+                        "w": 2,
+                        "h": 1
+                    }
+                },
+                {
+                    "group": "leftPinky",
+                    "text": "a",
+                    "code": "0x41",
+                    "lang": {
+                        "ru": {
+                            "text": "ф"
+                        }
+                    }
+                },
+                {
+                    "group": "leftRing",
+                    "text": "s",
+                    "code": "0x53",
+                    "lang": {
+                        "ru": {
+                            "text": "ы"
+                        }
+                    }
+                },
+                {
+                    "group": "leftMiddle",
+                    "text": "d",
+                    "code": "0x44",
+                    "lang": {
+                        "ru": {
+                            "text": "в"
+                        }
+                    }
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "f",
+                    "code": "0x46",
+                    "bump": true,
+                    "lang": {
+                        "ru": {
+                            "text": "а"
+                        }
+                    }
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "g",
+                    "code": "0x47",
+                    "lang": {
+                        "ru": {
+                            "text": "п"
+                        }
+                    }
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "h",
+                    "code": "0x48",
+                    "lang": {
+                        "ru": {
+                            "text": "р"
+                        }
+                    }
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "j",
+                    "bump": true,
+                    "code": "0x4a",
+                    "lang": {
+                        "ru": {
+                            "text": "о"
+                        }
+                    }
+                },
+                {
+                    "group": "rightMiddle",
+                    "text": "k",
+                    "code": "0x4b",
+                    "lang": {
+                        "ru": {
+                            "text": "л"
+                        }
+                    }
+                },
+                {
+                    "group": "rightRing",
+                    "text": "l",
+                    "code": "0x4c",
+                    "lang": {
+                        "ru": {
+                            "text": "д"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": ";",
+                    "shifted": ":",
+                    "code": "0x3b",
+                    "lang": {
+                        "ru": {
+                            "text": "ж"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "'",
+                    "shifted": "\"",
+                    "code": "0x27",
+                    "lang": {
+                        "ru": {
+                            "text": "э"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "\\",
+                    "shifted": "|",
+                    "code": "0x5c",
+                    "lang": {
+                        "ru": {
+                            "text": "ё"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "buttons": [
+                {
+                    "group": "leftPinky",
+                    "text": "\u21E7",
+                    "code": "0x01000020",
+                    "size": {
+                        "w": 1.5,
+                        "h": 1
+                    }
+                },
+                {
+                    "group": "leftPinky",
+                    "text": "\u0300",
+                    "shifted": "~",
+                    "code": "0x0c0"
+                },
+                {
+                    "group": "leftRing",
+                    "text": "z",
+                    "code": "0x5a",
+                    "lang": {
+                        "ru": {
+                            "text": "я"
+                        }
+                    }
+                },
+                {
+                    "group": "leftMiddle",
+                    "text": "x",
+                    "code": "0x58",
+                    "lang": {
+                        "ru": {
+                            "text": "ч"
+                        }
+                    }
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "c",                   
+                    "code": "0x43",
+                    "lang": {
+                        "ru": {
+                            "text": "с"
+                        }
+                    }
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "v",                   
+                    "code": "0x56",
+                    "lang": {
+                        "ru": {
+                            "text": "м"
+                        }
+                    }
+                },
+                {
+                    "group": "leftIndex",
+                    "text": "b",
+                    "code": "0x42",
+                    "lang": {
+                        "ru": {
+                            "text": "и"
+                        }
+                    }
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "n",
+                    "code": "0x4e",
+                    "lang": {
+                        "ru": {
+                            "text": "т"
+                        }
+                    }
+                },
+                {
+                    "group": "rightIndex",
+                    "text": "m",
+                    "code": "0x4d",
+                    "lang": {
+                        "ru": {
+                            "text": "ь"
+                        }
+                    }
+                },
+                {
+                    "group": "rightMiddle",
+                    "text": ",",
+                    "shifted": "<",
+                    "code": "0x2c",
+                    "lang": {
+                        "ru": {
+                            "text": "б"
+                        }
+                    }
+                },
+                {
+                    "group": "rightRing",
+                    "text": ".",
+                    "shifted": ">",
+                    "code": "0x2e",
+                    "lang": {
+                        "ru": {
+                            "text": "ю"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "/",
+                    "shifted": "?",
+                    "code": "0x2f",
+                    "lang": {
+                        "ru": {
+                            "text": "/"
+                        }
+                    }
+                },
+                {
+                    "group": "rightPinky",
+                    "text": "\u21E7",
+                    "code": "0x01000020",
+                    "size": {
+                        "w": 2,
+                        "h": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
